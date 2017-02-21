@@ -86,7 +86,7 @@ def gaussian_elim(matrix, b):
 	aug_matrix = augment(matrix, b)
 	print_matrix(aug_matrix, "")
 
-	#Forward Substitution
+	#Forward Elimination
 	i = 0
 	while True:
 		for j in range(i + 1, matrix_size):
